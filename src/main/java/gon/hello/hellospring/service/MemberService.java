@@ -9,7 +9,6 @@ import gon.hello.hellospring.domain.Member;
 import gon.hello.hellospring.repository.MemberRepository;
 import gon.hello.hellospring.repository.MemoryMemberRepository;
 
-@Service
 public class MemberService {
     private final MemberRepository memberRepository;
 

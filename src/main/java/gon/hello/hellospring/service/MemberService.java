@@ -3,10 +3,13 @@ package gon.hello.hellospring.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
 import gon.hello.hellospring.domain.Member;
 import gon.hello.hellospring.repository.MemberRepository;
 import gon.hello.hellospring.repository.MemoryMemberRepository;
 
+@Service
 public class MemberService {
     private final MemberRepository memberRepository;
 

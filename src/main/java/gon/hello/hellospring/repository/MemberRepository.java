@@ -9,7 +9,7 @@ public interface MemberRepository {
 
     Member save(Member member);
 
-    Optional<Member> findById(long id);         // 리턴이 Null일 수도 있어서
+    Optional<Member> findById(Long id);         // 리턴이 Null일 수도 있어서
 
     Optional<Member> findByName(String name);
 
